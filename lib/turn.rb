@@ -44,7 +44,7 @@ def move(board, index, position = "X")
   # if valid_move?(board, index) == TRUE
    board[index] = position
 end
-end
+
 
 def turn(board) 
   puts "Please enter 1-9:"
